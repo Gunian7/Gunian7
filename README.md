@@ -15,10 +15,11 @@
 <br/>
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td width="60%" valign="top" style="border: none;">
-      <h2 style="color: #00FFCC;"><code>[#] SYSTEM_INFO :: PROFILE_DATA</code></h2>
-      <pre lang="json" style="background: rgba(0,255,204,0.05); border: 1px solid #00FFCC; border-radius: 5px; color: #00FFCC; padding: 15px; font-family: monospace;">
+<tr>
+<td width="60%" valign="top" style="border: none;">
+<h2 style="color: #00FFCC;"><code>[#] SYSTEM_INFO :: PROFILE_DATA</code></h2>
+
+<pre lang="json" style="background: rgba(0,255,204,0.05); border: 1px solid #00FFCC; border-radius: 5px; color: #00FFCC; padding: 15px; font-family: monospace;">
 {
   "USER": "Gunian7",
   "CLASS": "Full-Stack Geek // Tech Artisan",
@@ -26,24 +27,28 @@
   "QUOTE": "To have Noir by my side."
 }</pre>
       
-      <br/>
+<br/>
 
-      <h2 style="color: #FF00CC;"><code>[#] LOAD_MODULES :: INTERESTS</code></h2>
-      <ul>
-        <li>⚡ <b>Core Focus:</b> Constructing robust <b>System Architecture</b> and <b>Developer Tools</b>.</li>
-        <li>🌌 <b>Exploration:</b> ACG Culture (Anime/Comic/Games), Cyberpunk Aesthetics.</li>
-        <li>⚔️ <b>Vibe:</b> Writing code that is clean, practical, and heavily themed.</li>
-      </ul>
-    </td>
-    <td width="40%" align="center" valign="middle" style="border: none;">
-      <a href="https://github.com/Gunian7">
-        <!-- 专属看板图片，请放在仓库的 assets 文件夹中 -->
-        <img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(0, 255, 204, 0.4));" />
-      </a>
-      <br/>
-      <sub><b style="color: #00FFCC;">✦ [NEXUS_LINK_ACTIVE] ✦</b></sub>
-    </td>
-  </tr>
+<h2 style="color: #FF00CC;"><code>[#] LOAD_MODULES :: INTERESTS</code></h2>
+
+<ul>
+<li>⚡ <b>Core Focus:</b> Constructing robust <b>System Architecture</b> and <b>Developer Tools</b>.</li>
+<li>🌌 <b>Exploration:</b> ACG Culture (Anime/Comic/Games), Cyberpunk Aesthetics.</li>
+<li>⚔️ <b>Vibe:</b> Writing code that is clean, practical, and heavily themed.</li>
+</ul>
+</td>
+<td width="40%" align="center" valign="middle" style="border: none;">
+
+<a href="https://github.com/Gunian7">
+<!-- 专属看板图片，请放在仓库的 assets 文件夹中 -->
+<img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(0, 255, 204, 0.4));" />
+</a>
+
+<br/>
+<sub><b style="color: #00FFCC;">✦ [NEXUS_LINK_ACTIVE] ✦</b></sub>
+
+</td>
+</tr>
 </table>
 
 <br/>
