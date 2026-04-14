@@ -30,12 +30,12 @@
 
 ###  Me
 
-```text
-[OPERATOR] Weikai Chen / Gunian7
-[ACADEMY ] Hangzhou Dianzi University
-[UNIT    ] HDU PHOENIX Vision Group (2026~)
-[STATUS  ] ONLINE
-```
+<pre style="background: rgba(17, 24, 32, 0.7); border: 1px solid #1C2633; border-left: 5px solid #67C1CF; color: #DCE7F5; padding: 18px; border-radius: 4px; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 14.5px; line-height: 1.8; margin-top: 1em;">
+<span style="color: #67C1CF; font-weight: bold;">[OPERATOR]</span>  Weikai Chen / Gunian7
+<span style="color: #67C1CF; font-weight: bold;">[ACADEMY ]</span>  Hangzhou Dianzi University
+<span style="color: #67C1CF; font-weight: bold;">[UNIT    ]</span>  HDU PHOENIX Vision Group (2026~)
+<span style="color: #67C1CF; font-weight: bold;">[STATUS  ]</span>  <span style="color: #D96B4F; font-weight: bold; text-shadow: 0 0 10px rgba(217,107,79,0.5);">ONLINE</span>
+</pre>
 
 <div align="center">
 
@@ -76,13 +76,6 @@
 ---
 
 ###  GitHub Stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=8FA8C4&icon_color=67C1CF&text_color=DCE7F5&bg_color=0F141C&border_color=2F3A46&border_radius=6&include_all_commits=true&hide_border=false" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=8FA8C4&text_color=E8EEF7&bg_color=141B25&border_color=3C4A59&border_radius=6" />
-
-</div>
 
 <div align="center">
 
