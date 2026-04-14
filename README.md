@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=1_080B12,2_111A26,3_2B3A4D,4_5F7F9D&text=Gunian7&fontColor=EAF1FA&fontSize=62&fontAlignY=38&desc=Anime%20Geek%20Terminal%20%7C%20Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=C9D8EB&descSize=15&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
+[![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=1_080B12,2_111A26,3_2B3A4D,4_5F7F9D&text=Gunian7&fontColor=EAF1FA&fontSize=62&fontAlignY=38&desc=%20%7C%20Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=C9D8EB&descSize=15&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
 
 </div>
 
@@ -15,13 +15,13 @@
 
 ---
 
-###  Me
+##  Me
 
 <pre style="background: rgba(17, 24, 32, 0.7); border: 1px solid #1C2633; border-left: 5px solid #67C1CF; color: #DCE7F5; padding: 18px; border-radius: 4px; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 14.5px; line-height: 1.8; margin-top: 1em;">
 <span style="color: #67C1CF; font-weight: bold;">[OPERATOR]</span>  Weikai Chen / Gunian7
 <span style="color: #67C1CF; font-weight: bold;">[ACADEMY ]</span>  Hangzhou Dianzi University
 <span style="color: #67C1CF; font-weight: bold;">[UNIT    ]</span>  HDU PHOENIX Vision Group (2026~)
-<span style="color: #67C1CF; font-weight: bold;">[STATUS  ]</span>  <span style="color: #D96B4F; font-weight: bold; text-shadow: 0 0 10px rgba(217,107,79,0.5);">ONLINE</span>
+<span style="color: #67C1CF; font-weight: bold;">[STATUS  ]</span>  <span style="color: #D96B4F; font-weight: bold; text-shadow: 0 0 10px rgba(217,107,79,0.5);">Alive</span>
 </pre>
 
 <div align="center">
@@ -38,7 +38,7 @@
 
 <br/>
 
-###  Tech Stack
+##  Tech Stack
 
 <div align="center">
 
@@ -50,7 +50,7 @@
 
 ---
 
-###  Projects
+##  Projects
 
 | 项目 | 描述 | 技术栈 |
 |------|------|--------|
@@ -62,7 +62,7 @@
 
 ---
 
-###  GitHub Stats
+##  GitHub Stats
 
 <div align="center">
 
