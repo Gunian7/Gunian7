@@ -12,19 +12,6 @@
 
 </div>
 
-<div align="center">
-
-[![](https://img.shields.io/badge/ANIME_MODE-ONLINE-67C1CF?style=flat-square&labelColor=1C2633)](#)
-[![](https://img.shields.io/badge/GEEK_PROTOCOL-ACTIVE-8FA8C4?style=flat-square&labelColor=1C2633)](#)
-[![](https://img.shields.io/badge/RI_STYLE-LOADED-5F7F9D?style=flat-square&labelColor=1C2633)](#)
-
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2300&pause=900&color=8FA8C4&center=true&vCenter=true&width=860&lines=%3E%3E+ANIME+GEEK+INTERFACE+ONLINE;%3E%3E+RHODES-LIKE+PALETTE+LOADED;%3E%3E+BUILDING+ROBOTS+%2F%2F+VISION+%2F%2F+FULL-STACK" alt="Terminal Intro" />
-
-</div>
 
 ---
 
