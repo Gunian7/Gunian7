@@ -17,7 +17,7 @@
 
 ##  Me
 
-<pre style="background: rgba(17, 24, 32, 0.7); border: 1px solid #1C2633; border-left: 5px solid #67C1CF; color: #DCE7F5; padding: 18px; border-radius: 4px; font-family: 'JetBrains Mono', Consolas, monospace; font-size: 14.5px; line-height: 1.8; margin-top: 1em;">
+<pre style="background: rgba(17, 24, 32, 0.7); border: 1px solid #1C2633; border-left: 5px solid #67C1CF; color: #DCE7F5; padding: 22px; border-radius: 4px; font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 16.5px; line-height: 1.9; margin-top: 1em; letter-spacing: 0.5px; text-shadow: 0 0 2px rgba(103, 193, 207, 0.4);">
 <span style="color: #67C1CF; font-weight: bold;">[OPERATOR]</span>  Weikai Chen / Gunian7
 <span style="color: #67C1CF; font-weight: bold;">[ACADEMY ]</span>  Hangzhou Dianzi University
 <span style="color: #67C1CF; font-weight: bold;">[UNIT    ]</span>  HDU PHOENIX Vision Group (2026~)
