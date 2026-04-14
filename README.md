@@ -14,40 +14,38 @@
 
 ---
 
-<table align="center" width="100%" style="border-collapse: collapse; border: none;">
-<tr>
-<td width="60%" valign="top" style="border: none;">
-
-### 👋 About Me
-
-<pre lang="text" style="border-left: 4px solid #A1D953; border-radius: 4px; padding: 10px; background-color: rgba(161,217,83,0.05); color: #E8F0E1;">
-Lotus / Gunian7   ·   Hangzhou Dianzi University
-HDU PHOENIX 战队视觉组   ·   UTC+08:00
-</pre>
-
-热爱机器人视觉与嵌入式开发，同时对 ACG 文化和赛博朋克美学有浓厚兴趣。  
-目前专注于 ROS2 视觉系统与 AI 辅助开发工具链的探索。
-
-> *To have Noir truly by my side.*
-
-### 🛠 Tech Stack
-
-[![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js&theme=dark&perline=6)](https://skillicons.dev)
 <br/>
-[![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake&theme=dark&perline=6)](https://skillicons.dev)
 
-</td>
-<td width="40%" align="center" valign="middle" style="border: none;">
+<div style="clear: both; margin-bottom: 2em;">
+  <a href="https://github.com/Gunian7">
+    <img src="./assets/character.png" alt="Anime Avatar" width="35%" align="right" style="margin-left: 20px; filter: drop-shadow(0 0 15px rgba(161, 217, 83, 0.5));" />
+  </a>
 
-<a href="https://github.com/Gunian7">
-<img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(161, 217, 83, 0.5));" />
-</a>
+  ### 👋 About Me
+
+  <pre lang="text" style="border-left: 4px solid #A1D953; border-radius: 4px; padding: 10px; background-color: rgba(161,217,83,0.05); color: #E8F0E1;">
+  Lotus / Gunian7   ·   Hangzhou Dianzi University
+  HDU PHOENIX 战队视觉组   ·   UTC+08:00
+  </pre>
+
+  热爱机器人视觉与嵌入式开发，同时对 ACG 文化和赛博朋克美学有浓厚兴趣。<br/>
+  目前专注于 ROS2 视觉系统与 AI 辅助开发工具链的探索。
+
+  > *To have Noir truly by my side.*
+  > <br/>
+  > <sub><b style="color: #A1D953;">✦ [KAL'TSIT_SYSTEM_ACTIVE] ✦</b></sub>
+
+  <br/>
+
+  ### 🛠 Tech Stack
+
+  [![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js&theme=dark&perline=6)](https://skillicons.dev)
+  <br/>
+  [![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake&theme=dark&perline=6)](https://skillicons.dev)
+</div>
+
 <br/>
-<sub><b style="color: #A1D953;">✦ [KAL'TSIT_SYSTEM_ACTIVE] ✦</b></sub>
-
-</td>
-</tr>
-</table>
+<div style="clear: both;"></div>
 
 ---
 
