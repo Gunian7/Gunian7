@@ -1,14 +1,14 @@
 ﻿<div align="center">
 
-[![Header](https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=1_000000,2_500000,3_ff0000&text=Gunian7&fontColor=ffffff&fontSize=62&fontAlignY=38&desc=Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=cccccc&descSize=16&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
+[![Header](https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=1_111513,2_2E3B32,3_A1D953&text=Gunian7&fontColor=E8F0E1&fontSize=62&fontAlignY=38&desc=Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=C1D1B7&descSize=16&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
 
 </div>
 
 <div align="center">
 
-[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=ff0000&style=flat-square&labelColor=2b0000)](https://github.com/Gunian7)
-[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=flat-square&color=000000&labelColor=2b0000&logo=github&logoColor=ff0000)](https://github.com/Gunian7?tab=followers)
-[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=flat-square&color=000000&labelColor=2b0000&logo=github&logoColor=ff0000)](https://github.com/Gunian7)
+[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=A1D953&style=flat-square&labelColor=2E3B32)](https://github.com/Gunian7)
+[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=flat-square&color=111513&labelColor=2E3B32&logo=github&logoColor=A1D953)](https://github.com/Gunian7?tab=followers)
+[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=flat-square&color=111513&labelColor=2E3B32&logo=github&logoColor=A1D953)](https://github.com/Gunian7)
 
 </div>
 
@@ -20,7 +20,7 @@
 
 ### 👋 About Me
 
-<pre lang="text" style="border-left: 4px solid #ff0000; border-radius: 4px; padding: 10px; background-color: rgba(255,0,0,0.05);">
+<pre lang="text" style="border-left: 4px solid #A1D953; border-radius: 4px; padding: 10px; background-color: rgba(161,217,83,0.05); color: #E8F0E1;">
 Lotus / Gunian7   ·   Hangzhou Dianzi University
 HDU PHOENIX 战队视觉组   ·   UTC+08:00
 </pre>
@@ -40,10 +40,10 @@ HDU PHOENIX 战队视觉组   ·   UTC+08:00
 <td width="40%" align="center" valign="middle" style="border: none;">
 
 <a href="https://github.com/Gunian7">
-<img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(255, 0, 0, 0.4));" />
+<img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(161, 217, 83, 0.5));" />
 </a>
 <br/>
-<sub><b style="color: #ff0000;">✦ [NEXUS_LINK_ACTIVE] ✦</b></sub>
+<sub><b style="color: #A1D953;">✦ [KAL'TSIT_SYSTEM_ACTIVE] ✦</b></sub>
 
 </td>
 </tr>
@@ -67,14 +67,14 @@ HDU PHOENIX 战队视觉组   ·   UTC+08:00
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=ff0000&icon_color=ff0000&text_color=cccccc&bg_color=0a0a0f&border_color=2b0000&border_radius=6&include_all_commits=true&hide_border=false" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=ff0000&text_color=cccccc&bg_color=0a0a0f&border_color=2b0000&border_radius=6" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=A1D953&icon_color=A1D953&text_color=C1D1B7&bg_color=111513&border_color=2E3B32&border_radius=6&include_all_commits=true&hide_border=false" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=A1D953&text_color=C1D1B7&bg_color=111513&border_color=2E3B32&border_radius=6" />
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=Gunian7&theme=dark&background=0a0a0f&border=2b0000&ring=ff0000&fire=ff0000&currStreakNum=ff0000&sideNums=cccccc&currStreakLabel=888888&sideLabels=888888&dates=555555)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Gunian7&theme=dark&background=111513&border=2E3B32&ring=A1D953&fire=A1D953&currStreakNum=A1D953&sideNums=C1D1B7&currStreakLabel=889481&sideLabels=889481&dates=555D4E)](https://git.io/streak-stats)
 
 </div>
 
@@ -84,8 +84,8 @@ HDU PHOENIX 战队视觉组   ·   UTC+08:00
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/1328037882@qq.com-000000?style=flat-square&logo=tencentqq&logoColor=ff0000&labelColor=2b0000)](mailto:1328037882@qq.com)
-[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-000000?style=flat-square&logo=github&logoColor=ff0000&labelColor=2b0000)](https://gunian7.github.io/Github-personal-page/)
+[![Email](https://img.shields.io/badge/1328037882@qq.com-111513?style=flat-square&logo=tencentqq&logoColor=A1D953&labelColor=2E3B32)](mailto:1328037882@qq.com)
+[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-111513?style=flat-square&logo=github&logoColor=A1D953&labelColor=2E3B32)](https://gunian7.github.io/Github-personal-page/)
 
 </div>
 
@@ -93,6 +93,6 @@ HDU PHOENIX 战队视觉组   ·   UTC+08:00
 
 <div align="center">
 
-[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_ff0000,2_500000,3_000000&section=footer)](https://github.com/Gunian7)
+[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_A1D953,2_2E3B32,3_111513&section=footer)](https://github.com/Gunian7)
 
 </div>
