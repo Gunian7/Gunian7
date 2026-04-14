@@ -24,8 +24,10 @@
   ### 👋 About Me
 
   <pre lang="text" style="border-left: 4px solid #A1D953; border-radius: 4px; padding: 10px; background-color: rgba(161,217,83,0.05); color: #E8F0E1;">
-  Lotus / Gunian7   ·   Hangzhou Dianzi University
-  HDU PHOENIX 战队视觉组   ·   UTC+08:00
+  Lotus / Gunian7   ·   
+  Hangzhou Dianzi University
+  HDU PHOENIX 战队视觉组   
+  UTC+08:00
   </pre>
 
   热爱机器人视觉与嵌入式开发，同时对 ACG 文化和赛博朋克美学有浓厚兴趣。<br/>
