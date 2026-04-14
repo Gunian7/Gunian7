@@ -1,43 +1,63 @@
-﻿<div align="center">
+<div align="center">
 
-[![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=1_0B0F14,2_1A2430,3_2F3A46,4_6F879F&text=GUNIAN7&fontColor=F3F6FB&fontSize=62&fontAlignY=38&desc=RHODES%20ISLAND%20TERMINAL%20%7C%20Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=D9E4F2&descSize=15&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
+[![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=1_080B12,2_111A26,3_2B3A4D,4_5F7F9D&text=Gunian7&fontColor=EAF1FA&fontSize=62&fontAlignY=38&desc=Anime%20Geek%20Terminal%20%7C%20Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=C9D8EB&descSize=15&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
 
 </div>
 
 <div align="center">
 
-[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=67C1CF&style=flat-square&labelColor=2F3A46)](https://github.com/Gunian7)
-[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=flat-square&color=8FA8C4&labelColor=1F2933&logo=github&logoColor=DDE7F6)](https://github.com/Gunian7?tab=followers)
-[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=flat-square&color=D96B4F&labelColor=394553&logo=github&logoColor=F4E8C1)](https://github.com/Gunian7)
+[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=67C1CF&style=for-the-badge&labelColor=111820)](https://github.com/Gunian7)
+[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=for-the-badge&color=8FA8C4&labelColor=111820&logo=github&logoColor=DCE7F5)](https://github.com/Gunian7?tab=followers)
+[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=for-the-badge&color=D96B4F&labelColor=111820&logo=github&logoColor=F4E8C1)](https://github.com/Gunian7)
+
+</div>
+
+<div align="center">
+
+[![](https://img.shields.io/badge/ANIME_MODE-ONLINE-67C1CF?style=flat-square&labelColor=1C2633)](#)
+[![](https://img.shields.io/badge/GEEK_PROTOCOL-ACTIVE-8FA8C4?style=flat-square&labelColor=1C2633)](#)
+[![](https://img.shields.io/badge/RI_STYLE-LOADED-5F7F9D?style=flat-square&labelColor=1C2633)](#)
+
+</div>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2300&pause=900&color=8FA8C4&center=true&vCenter=true&width=860&lines=%3E%3E+ANIME+GEEK+INTERFACE+ONLINE;%3E%3E+RHODES-LIKE+PALETTE+LOADED;%3E%3E+BUILDING+ROBOTS+%2F%2F+VISION+%2F%2F+FULL-STACK" alt="Terminal Intro" />
 
 </div>
 
 ---
 
+###  Me
+
+```text
+[OPERATOR] Weikai Chen / Gunian7
+[ACADEMY ] Hangzhou Dianzi University
+[UNIT    ] HDU PHOENIX Vision Group (2026~)
+[STATUS  ] ONLINE
+```
+
+<div align="center">
+
+[![](https://img.shields.io/badge/Focus-Robotics-2A3647?style=flat-square&logo=ros&logoColor=67C1CF)](#)
+[![](https://img.shields.io/badge/Focus-Computer%20Vision-2A3647?style=flat-square&logo=opencv&logoColor=8FA8C4)](#)
+[![](https://img.shields.io/badge/Focus-Full--Stack-2A3647?style=flat-square&logo=javascript&logoColor=D96B4F)](#)
+
+</div>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=67C1CF&center=true&vCenter=true&width=900&lines=Bio%3A+To+have+Noir+truly+by+my+side.;Bio%3A+%E4%B8%96%E7%95%8C%E6%98%AF%E5%81%87%E7%9A%84%EF%BC%8C%E4%BD%86%E7%88%B1%E6%98%AF%E7%9C%9F%E7%9A%84.;Bio%3A+Be+Me." alt="Animated Bio" />
+</p>
+
 <br/>
 
-<div style="margin-bottom: 2em;">
+###  Tech Stack
 
-  <h2 style="margin: 0 0 0.55em 0; font-size: 2.05em; color: #F3F6FB; letter-spacing: 0.4px;">Me</h2>
+<div align="center">
 
-  <div style="border: 1px solid #2C3644; border-left: 6px solid #67C1CF; border-radius: 10px; padding: 16px 20px; background: linear-gradient(120deg, rgba(22,28,36,0.92) 0%, rgba(17,22,30,0.88) 68%, rgba(29,35,45,0.9) 100%);">
-    <p style="margin: 0 0 0.6em 0; font-size: 0.95em; color: #9AAEC8; letter-spacing: 1.1px;">OPERATOR DOSSIER // RI-TERMINAL</p>
-    <p style="margin: 0 0 0.4em 0; font-size: 1.22em; color: #F5F8FC;"><b>WEIKAI CHEN / GUNIAN7</b></p>
-    <p style="margin: 0 0 0.25em 0; font-size: 1.05em; color: #DCE7F5;">Hangzhou Dianzi University</p>
-    <p style="margin: 0; font-size: 1.05em; color: #DCE7F5;">Member of HDU PHOENIX Vision Group (2026~)</p>
-  </div>
-
-  <p style="margin: 1em 0 0.2em 0;">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2800&pause=1200&color=48CAE4&repeat=true&vCenter=true&width=640&lines=Bio:+To+have+Noir+truly+by+my+side.;Bio:+世+界+是+假+的，+但+爱+是+真+的.;Bio:+Be+Me ." alt="Animated Bio" />
-  </p>
-
-  <br/>
-
-  <h3 style="margin: 0.15em 0 0.8em 0; font-size: 1.35em; color: #8FA8C4; letter-spacing: 0.3px;">Tech Stack</h3>
-
-  [![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js&theme=dark&perline=6)](https://skillicons.dev)
-  <br/>
-  [![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake&theme=dark&perline=6)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js,ts&theme=dark&perline=7)](https://skillicons.dev)
+<br/>
+[![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake,docker&theme=dark&perline=7)](https://skillicons.dev)
 
 </div>
 
@@ -59,7 +79,7 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=8FA8C4&icon_color=67C1CF&text_color=DCE7F5&bg_color=11161F&border_color=2F3A46&border_radius=6&include_all_commits=true&hide_border=false" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=8FA8C4&icon_color=67C1CF&text_color=DCE7F5&bg_color=0F141C&border_color=2F3A46&border_radius=6&include_all_commits=true&hide_border=false" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=8FA8C4&text_color=E8EEF7&bg_color=141B25&border_color=3C4A59&border_radius=6" />
 
 </div>
@@ -70,14 +90,20 @@
 
 </div>
 
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Gunian7&bg_color=0f141c&color=8fa8c4&line=67c1cf&point=d96b4f&area=true&hide_border=true)](https://github.com/Gunian7)
+
+</div>
+
 ---
 
 ###  Contact
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/1328037882@qq.com-243140?style=flat-square&logo=tencentqq&logoColor=67C1CF&labelColor=111820)](mailto:1328037882@qq.com)
-[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-334457?style=flat-square&logo=github&logoColor=DDE7F6&labelColor=1A2533)](https://gunian7.github.io/Github-personal-page/)
+[![Email](https://img.shields.io/badge/1328037882@qq.com-243140?style=for-the-badge&logo=tencentqq&logoColor=67C1CF&labelColor=111820)](mailto:1328037882@qq.com)
+[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-334457?style=for-the-badge&logo=github&logoColor=DDE7F6&labelColor=1A2533)](https://gunian7.github.io/Github-personal-page/)
 
 </div>
 
@@ -85,6 +111,6 @@
 
 <div align="center">
 
-[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_67C1CF,2_8FA8C4,3_2F3A46,4_0B0F14&section=footer)](https://github.com/Gunian7)
+[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_67C1CF,2_5F7F9D,3_2B3A4D,4_080B12&section=footer)](https://github.com/Gunian7)
 
 </div>
