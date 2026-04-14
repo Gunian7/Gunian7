@@ -30,7 +30,6 @@
 [![](https://img.shields.io/badge/Focus-Computer%20Vision-2A3647?style=flat-square&logo=opencv&logoColor=8FA8C4)](#)
 [![](https://img.shields.io/badge/Focus-Full--Stack-2A3647?style=flat-square&logo=javascript&logoColor=D96B4F)](#)
 
-</div>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=67C1CF&center=true&vCenter=true&width=900&lines=Bio%3A+To+have+Noir+truly+by+my+side.;Bio%3A+%E4%B8%96%E7%95%8C%E6%98%AF%E5%81%87%E7%9A%84%EF%BC%8C%E4%BD%86%E7%88%B1%E6%98%AF%E7%9C%9F%E7%9A%84.;Bio%3A+Be+Me." alt="Animated Bio" />
