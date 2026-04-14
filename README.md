@@ -1,83 +1,86 @@
 ﻿<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=gradient&customColorList=1_000000,2_00FFCC,3_FF00CC&text=GUNIAN7%20%7C%20CYBER_NEXUS&fontColor=ffffff&fontSize=50&fontAlignY=35&desc=Otaku%20%2F%2F%20Geek%20%2F%2F%20Developer&descAlignY=55&animation=twinkling" />
+
+[![Header](https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=1_0a0a0f,2_1a1208,3_2d1f05&text=Gunian7&fontColor=E8A320&fontSize=62&fontAlignY=38&desc=Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=9a8060&descSize=16&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
+
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=24&pause=1000&color=00FFCC&center=true&vCenter=true&width=600&lines=%3E_SYSTEM_ONLINE;%3E_HELLO_WORLD;%3E_WELCOME_TO_MY_TERMINAL;%3E_TO_HAVE_NOIR_BY_MY_SIDE." alt="Typing SVG" />
+
+[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=0a0a0f&style=flat-square&labelColor=1a1208)](https://github.com/Gunian7)
+[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=flat-square&color=0a0a0f&labelColor=1a1208&logo=github&logoColor=E8A320)](https://github.com/Gunian7?tab=followers)
+[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=flat-square&color=0a0a0f&labelColor=1a1208&logo=github&logoColor=E8A320)](https://github.com/Gunian7)
+
 </div>
 
-<p align="center">
-  <a href="https://github.com/Gunian7"><img src="https://komarev.com/ghpvc/?username=Gunian7&label=SYS.VISITS&color=00FFCC&style=for-the-badge" alt="Profile Views"/></a>
-  <a href="https://github.com/Gunian7?tab=followers"><img src="https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=for-the-badge&color=FF00CC" alt="Followers"/></a>
-  <a href="https://github.com/Gunian7"><img src="https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=for-the-badge&color=00FFCC" alt="Stars"/></a>
-</p>
+---
 
-<br/>
+### 👋 About Me
 
-<table align="center" width="100%" style="border-collapse: collapse; border: none;">
-<tr>
-<td width="60%" valign="top" style="border: none;">
-<h2 style="color: #00FFCC;"><code>[#] SYSTEM_INFO :: PROFILE_DATA</code></h2>
+```
+Lotus / Gunian7   ·   Hangzhou Dianzi University
+HDU PHOENIX 战队视觉组   ·   UTC+08:00
+```
 
-<pre lang="json" style="background: rgba(0,255,204,0.05); border: 1px solid #00FFCC; border-radius: 5px; color: #00FFCC; padding: 15px; font-family: monospace;">
-{
-  "USER": "Gunian7",
-  "CLASS": "Full-Stack Geek // Tech Artisan",
-  "STATUS": "Compiling reality...",
-  "QUOTE": "To have Noir by my side."
-}</pre>
-      
-<br/>
+热爱机器人视觉与嵌入式开发，同时对 ACG 文化和赛博朋克美学有浓厚兴趣。  
+目前专注于 ROS2 视觉系统与 AI 辅助开发工具链的探索。
 
-<h2 style="color: #FF00CC;"><code>[#] LOAD_MODULES :: INTERESTS</code></h2>
+> *To have Noir truly by my side.*
 
-<ul>
-<li>⚡ <b>Core Focus:</b> Constructing robust <b>System Architecture</b> and <b>Developer Tools</b>.</li>
-<li>🌌 <b>Exploration:</b> ACG Culture (Anime/Comic/Games), Cyberpunk Aesthetics.</li>
-<li>⚔️ <b>Vibe:</b> Writing code that is clean, practical, and heavily themed.</li>
-</ul>
-</td>
-<td width="40%" align="center" valign="middle" style="border: none;">
+---
 
-<a href="https://github.com/Gunian7">
-<!-- 专属看板图片，请放在仓库的 assets 文件夹中 -->
-<img src="./assets/character.png" alt="Anime Avatar" width="100%" style="max-width: 320px; filter: drop-shadow(0 0 15px rgba(0, 255, 204, 0.4));" />
-</a>
-
-<br/>
-<sub><b style="color: #00FFCC;">✦ [NEXUS_LINK_ACTIVE] ✦</b></sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
+### 🛠 Tech Stack
 
 <div align="center">
-  <h2><code>⚙️ SKILL_TREE_MATRIX ⚙️</code></h2>
-  <p align="center">
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=python,ts,nodejs,git,vscode,react,docker,linux,powershell&theme=dark&perline=9" />
-    </a>
-  </p>
+
+[![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js&theme=dark&perline=6)](https://skillicons.dev)
+[![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake&theme=dark&perline=6)](https://skillicons.dev)
+
 </div>
 
-<br/>
+---
+
+### 🚀 Projects
+
+| 项目 | 描述 | 技术栈 |
+|------|------|--------|
+| [**LevelUp**](https://github.com/Gunian7/LevelUp) | RPG 风格任务计算器，集成多人格 AI 公会接待员 | `HTML` `CSS` `JS` |
+| [**RM Phoenix Vision**](https://github.com/Gunian7/2025) | 杭电 PHOENIX 战队视觉组自瞄训练任务 | `C++` `ROS2` `OpenCV` |
+| [**GomokuGame**](https://github.com/Gunian7/GomokuGame) | 支持本地 / 联机 / AI 对战的五子棋系统 | `Python` |
+| [**NodeMCU WiFi Car**](https://github.com/Gunian7/NodeMCU-WI-FI-CAR) | 基于 ESP8266 的无线遥控车 | `C` `ESP8266` |
+| [**STM32**](https://github.com/Gunian7/STM32) | STM32 嵌入式开发练习 | `C` `STM32` |
+
+---
+
+### 📊 GitHub Stats
 
 <div align="center">
-  <h2><code>📊 DATABANK_METRICS 📊</code></h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=00FFCC&icon_color=FF00CC&text_color=ffffff&bg_color=0d1117&border_color=00FFCC&border_radius=5" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=FF00CC&text_color=ffffff&bg_color=0d1117&border_color=FF00CC&border_radius=5" width="48%" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Gunian7&show_icons=true&title_color=E8A320&icon_color=E8A320&text_color=c8b99a&bg_color=0a0a0f&border_color=2d1f05&border_radius=6&include_all_commits=true&hide_border=false" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gunian7&layout=compact&title_color=E8A320&text_color=c8b99a&bg_color=0a0a0f&border_color=2d1f05&border_radius=6" />
+
 </div>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Gunian7&theme=dark&background=0d1117&border=00FFCC&ring=FF00CC&fire=00FFCC&currStreakNum=ffffff&sideLabels=ffffff&dates=ffffff" />
-</p>
+<div align="center">
 
-<br/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=Gunian7&theme=dark&background=0a0a0f&border=2d1f05&ring=E8A320&fire=FDD89A&currStreakNum=E8A320&sideNums=c8b99a&currStreakLabel=9a8060&sideLabels=9a8060&dates=3d3d4e)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+### 📬 Contact
 
 <div align="center">
-  <a href="mailto:1328037882@qq.com">
-    <img src="https://capsule-render.vercel.app/api?type=rect&height=60&color=000000&text=CONTACT%3A%201328037882%40qq.com&fontColor=00FFCC&fontSize=20&fontAlign=50&fontAlignY=50&stroke=00FFCC&strokeWidth=2" />
-  </a>
+
+[![Email](https://img.shields.io/badge/1328037882@qq.com-0a0a0f?style=flat-square&logo=tencentqq&logoColor=E8A320&labelColor=1a1208)](mailto:1328037882@qq.com)
+[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-0a0a0f?style=flat-square&logo=github&logoColor=E8A320&labelColor=1a1208)](https://gunian7.github.io/Github-personal-page/)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_2d1f05,2_1a1208,3_0a0a0f&section=footer)](https://github.com/Gunian7)
+
 </div>
