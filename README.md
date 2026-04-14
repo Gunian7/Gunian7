@@ -21,9 +21,9 @@
     <img src="./assets/character.png" alt="Anime Avatar" width="35%" align="right" style="margin-left: 20px; filter: drop-shadow(0 0 18px rgba(232, 199, 125, 0.52));" />
   </a>
 
-  ###   Me
+  <h2 style="margin: 0 0 0.4em 0; font-size: 1.65em; color: #F6F2E9;">Me</h2>
 
-  <pre lang="text" style="border-left: 4px solid #E8C77D; border-radius: 4px; padding: 10px; background-color: rgba(232,199,125,0.09); color: #F3EDE0;">
+  <pre lang="text" style="border-left: 4px solid #E8C77D; border-radius: 4px; padding: 10px; background-color: rgba(232,199,125,0.09); color: #F3EDE0; font-size: 1.05em; line-height: 1.7;">
   Weikai Chen / Gunian7   ·   
   Hangzhou Dianzi University
   Member of HDU PHOENIX Vision Group (2026~)
