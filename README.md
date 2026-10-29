@@ -17,14 +17,12 @@
 
 ## 在做的事
 
-| 项目 | 做什么 | 技术栈 |
-|:--|:--|:--|
-| **[LifeFlow-Web](https://github.com/Gunian7/LifeFlow-Web)** | 本地优先的今日时间线，不联网也不评判 | `TypeScript` `React` `PWA` |
-| **[GEArm](https://github.com/Gunian7/GEArm)** | 六轴机械臂固件，F407 → DM-MC02 移植 | `C` `STM32H7` `FreeRTOS` |
-| **[Sc_vision](https://github.com/Gunian7/Sc_vision)** | 26 赛季自瞄模块，IMM 建模旋转 | `C++` `OpenCV` |
-| **[Deepseek-Desktop-Mini-Maid](https://github.com/Gunian7/Deepseek-Desktop-Mini-Maid)** | 圆屏桌面陪伴体：情绪表情 / 点歌 | `Python` `LS26` |
-| **[Desktop-companion](https://github.com/Gunian7/Desktop-companion)** | 桌面 Noir，本地模型 + 云端 API | `JavaScript` |
-| **[Multicar](https://github.com/Gunian7/Multicar)** | 双芯小车：ESP8266 决策 + STM32 执行 | `C` `ESP8266` |
+- **[LifeFlow-Web](https://github.com/Gunian7/LifeFlow-Web)** — 本地优先的今日时间线，不联网也不评判 · `TypeScript` `React` `PWA`
+- **[GEArm](https://github.com/Gunian7/GEArm)** — 六轴机械臂固件，STM32F407 → DM-MC02 移植，bxCAN → FDCAN 重构 · `C` `STM32H7` `FreeRTOS`
+- **[Sc_vision](https://github.com/Gunian7/Sc_vision)** — 26 赛季视觉自瞄模块（Ember），IMM 单独建模旋转，有限状态机火控 · `C++` `OpenCV`
+- **[Deepseek-Desktop-Mini-Maid](https://github.com/Gunian7/Deepseek-Desktop-Mini-Maid)** — 1.54 寸圆屏桌面陪伴体：情绪表情、偷吃白饭、B 站语音点歌 · `Python` `LS26`
+- **[Desktop-companion](https://github.com/Gunian7/Desktop-companion)** — 桌面 Noir，本地模型与云端 API 双通道 · `JavaScript`
+- **[Multicar](https://github.com/Gunian7/Multicar)** — 双芯小车平台，ESP8266 决策 + STM32F103 执行 · `C` `ESP8266`
 
 <div align="center">
   <img src="assets/rule.svg" width="100%" alt="">
