@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="620" viewBox="0 0 620 620" role="img">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter></defs>
+<rect width="620" height="620" fill="#08080A"/>
+<rect x="0.75" y="0.75" width="618.5" height="618.5" fill="none" stroke="#23242B" stroke-width="1.5"/>
+<path d="M0 26 L0 0 L26 0" fill="none" stroke="#B3121B" stroke-width="2.5"/>
+<path d="M620 26 L620 0 L594 0" fill="none" stroke="#B3121B" stroke-width="2.5"/>
+<path d="M0 594 L0 620 L26 620" fill="none" stroke="#B3121B" stroke-width="2.5"/>
+<path d="M620 594 L620 620 L594 620" fill="none" stroke="#B3121B" stroke-width="2.5"/>
+<circle cx="562" cy="528" r="70" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="96" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="122" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="148" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="174" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="200" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<circle cx="562" cy="528" r="226" fill="none" stroke="#15151A" stroke-width="1.2"/>
+<text x="40" y="52" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="3.5" fill="#6C6C74">OPERATOR DOSSIER</text>
+<text x="580" y="52" text-anchor="end" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="12" letter-spacing="2" fill="#B3121B">No. 07-1029</text>
+<line x1="40" y1="72" x2="580" y2="72" stroke="#B3121B" stroke-width="2"/>
+<text x="40" y="118" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">NAME</text>
+<text x="40" y="156" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="30" fill="#F2F0EB">Weikai Chen</text>
+<text x="40" y="194" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">ALIAS</text>
+<text x="40" y="220" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="15" fill="#C6C6CC">Gunian7  /  Lotus</text>
+<text x="40" y="250" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">UNIT</text>
+<text x="40" y="276" font-family="'Microsoft YaHei','PingFang SC','Hiragino Sans GB','Noto Sans SC',sans-serif" font-size="17" fill="#C6C6CC">HDU PHOENIX · Vision Group</text>
+<text x="40" y="306" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">ACADEMY</text>
+<text x="40" y="332" font-family="'Microsoft YaHei','PingFang SC','Hiragino Sans GB','Noto Sans SC',sans-serif" font-size="17" fill="#C6C6CC">Hangzhou Dianzi University</text>
+<text x="40" y="362" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">FIELD</text>
+<text x="40" y="388" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="15" fill="#C6C6CC">Robotics · Computer Vision · Full-Stack</text>
+<text x="40" y="418" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">STATUS</text>
+<text x="40" y="448" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="22" font-weight="bold" letter-spacing="4" fill="#B3121B">ALIVE</text>
+<circle cx="150" cy="440" r="4" fill="#B3121B"/>
+<line x1="40" y1="502" x2="580" y2="502" stroke="#1C1C22" stroke-width="1"/>
+<text x="40" y="532" font-family="Consolas,'SF Mono',Menlo,'DejaVu Sans Mono',monospace" font-size="11" letter-spacing="3" fill="#55555E">MOTTO</text>
+<text x="40" y="568" font-family="Georgia,'Times New Roman','Songti SC',serif" font-style="italic" font-size="23" fill="#E6E2D9">To have Noir truly by my side.</text>
+  <rect width="620" height="620" filter="url(#grain)" opacity="0.045"/>
+
+</svg>
