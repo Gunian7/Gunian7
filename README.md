@@ -1,74 +1,95 @@
 <div align="center">
-  <a href="https://github.com/Gunian7"><img src="assets/banner.png" width="100%" alt="Gunian7 — Weikai Chen, Robotics / Computer Vision / Full-Stack"></a>
+
+[![Header](https://capsule-render.vercel.app/api?type=waving&height=230&color=gradient&customColorList=1_080B12,2_111A26,3_2B3A4D,4_5F7F9D&text=Gunian7&fontColor=EAF1FA&fontSize=62&fontAlignY=38&desc=%20%7C%20Robotics%20%E2%80%A2%20Computer%20Vision%20%E2%80%A2%20Full-Stack&descColor=C9D8EB&descSize=15&descAlignY=60&animation=fadeIn)](https://github.com/Gunian7)
+
 </div>
-
-杭电 PHOENIX 战队视觉组，做机器人视觉、嵌入式和一点全栈。
-习惯是先把问题拆小，再慢慢把它做对。
-
-本科在读 · Hangzhou Dianzi University · HDU PHOENIX Vision Group (2026~)
 
 <div align="center">
 
-[![](https://komarev.com/ghpvc/?username=Gunian7&label=VISITORS&color=B3121B&style=flat-square&labelColor=2B2B31)](https://github.com/Gunian7)
-[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=flat-square&color=B3121B&labelColor=2B2B31&logo=github&logoColor=EEEAE4)](https://github.com/Gunian7?tab=followers)
-[![](https://img.shields.io/badge/EMAIL-1328037882%40qq.com-2B2B31?style=flat-square&logo=tencentqq&logoColor=EEEAE4)](mailto:1328037882@qq.com)
+[![](https://komarev.com/ghpvc/?username=Gunian7&label=PROFILE+VIEWS&color=67C1CF&style=for-the-badge&labelColor=111820)](https://github.com/Gunian7)
+[![](https://img.shields.io/github/followers/Gunian7?label=FOLLOWERS&style=for-the-badge&color=8FA8C4&labelColor=111820&logo=github&logoColor=DCE7F5)](https://github.com/Gunian7?tab=followers)
+[![](https://img.shields.io/github/stars/Gunian7?affiliations=OWNER%2CCOLLABORATOR&label=STARS&style=for-the-badge&color=D96B4F&labelColor=111820&logo=github&logoColor=F4E8C1)](https://github.com/Gunian7)
 
 </div>
 
-## 在做的事
 
-- **[LifeFlow-Web](https://github.com/Gunian7/LifeFlow-Web)** — 本地优先的今日时间线，不联网也不评判 · `TypeScript` `React` `PWA`
-- **[GEArm](https://github.com/Gunian7/GEArm)** — 六轴机械臂固件，STM32F407 → DM-MC02 移植，bxCAN → FDCAN 重构 · `C` `STM32H7` `FreeRTOS`
-- **[Sc_vision](https://github.com/Gunian7/Sc_vision)** — 26 赛季视觉自瞄模块（Ember），IMM 单独建模旋转，有限状态机火控 · `C++` `OpenCV`
-- **[Deepseek-Desktop-Mini-Maid](https://github.com/Gunian7/Deepseek-Desktop-Mini-Maid)** — 1.54 寸圆屏桌面陪伴体：情绪表情、偷吃白饭、B 站语音点歌 · `Python` `LS26`
-- **[Desktop-companion](https://github.com/Gunian7/Desktop-companion)** — 桌面 Noir，本地模型与云端 API 双通道 · `JavaScript`
-- **[Multicar](https://github.com/Gunian7/Multicar)** — 双芯小车平台，ESP8266 决策 + STM32F103 执行 · `C` `ESP8266`
+---
+
+##  Me
+
+<pre style="background: rgba(17, 24, 32, 0.7); border: 1px solid #1C2633; border-left: 5px solid #67C1CF; color: #DCE7F5; padding: 22px; border-radius: 4px; font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; font-size: 16.5px; line-height: 1.9; margin-top: 1em; letter-spacing: 0.5px; text-shadow: 0 0 2px rgba(103, 193, 207, 0.4);">
+<span style="color: #67C1CF; font-weight: bold;">[OPERATOR]</span>  Weikai Chen / Gunian7
+<span style="color: #67C1CF; font-weight: bold;">[ACADEMY ]</span>  Hangzhou Dianzi University
+<span style="color: #67C1CF; font-weight: bold;">[UNIT    ]</span>  HDU PHOENIX Vision Group (2026~)
+<span style="color: #67C1CF; font-weight: bold;">[STATUS  ]</span>  <span style="color: #D96B4F; font-weight: bold; text-shadow: 0 0 10px rgba(217,107,79,0.5);">Alive</span>
+</pre>
 
 <div align="center">
-  <img src="assets/rule.svg" width="100%" alt="">
-</div>
 
-## 其他项目
+[![](https://img.shields.io/badge/Focus-Robotics-2A3647?style=flat-square&logo=ros&logoColor=67C1CF)](#)
+[![](https://img.shields.io/badge/Focus-Computer%20Vision-2A3647?style=flat-square&logo=opencv&logoColor=8FA8C4)](#)
+[![](https://img.shields.io/badge/Focus-Full--Stack-2A3647?style=flat-square&logo=javascript&logoColor=D96B4F)](#)
 
-<details>
-<summary>展开 14 个仓库</summary>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1200&color=67C1CF&center=true&vCenter=true&width=900&lines=Bio%3A+To+have+Noir+truly+by+my+side.;Bio%3A+%E4%B8%96%E7%95%8C%E6%98%AF%E5%81%87%E7%9A%84%EF%BC%8C%E4%BD%86%E7%88%B1%E6%98%AF%E7%9C%9F%E7%9A%84.;Bio%3A+Be+Me." alt="Animated Bio" />
+</p>
 
 <br/>
 
-| 项目 | 做什么 | 技术栈 |
-|:--|:--|:--|
-| **[Streamflow-Forecasting-ML](https://github.com/Gunian7/Streamflow-Forecasting-ML)** | 流域径流多步预报，EDA → 异构 Stacking | `Python` `LSTM` |
-| **[HoH](https://github.com/Gunian7/HoH)** | 调度 Hermes 与 DeepSeek Harness 的本地控制平面 | `Python` `SQLite` |
-| **[Autoaim_Simulator](https://github.com/Gunian7/Autoaim_Simulator)** | 无需 ROS 依赖的自瞄仿真 | `Rust` |
-| **[Auto_aim_24](https://github.com/Gunian7/Auto_aim_24)** | 2024 传统自瞄（新前哨站） | `C++` `OpenCV` |
-| **[LifeFlow](https://github.com/Gunian7/LifeFlow)** | LifeFlow 的 HarmonyOS 原生线 | `ArkTS` |
-| **[2025](https://github.com/Gunian7/2025)** | 2025 赛季视觉组培训任务 | `C++` `ROS2` |
-| **[S27_tutorial](https://github.com/Gunian7/S27_tutorial)** | 27 赛季视觉组培训 | `C++` |
-| **[GM6020_control](https://github.com/Gunian7/GM6020_control)** | 大疆 GM6020 云台电机控制 | `C` `CAN` |
-| **[dt7-led-control](https://github.com/Gunian7/dt7-led-control)** | DT7 遥控器灯效控制 | `C` `STM32` |
-| **[LevelUp](https://github.com/Gunian7/LevelUp)** | RPG 风格任务计算器 + AI 公会接待员 | `HTML` `JS` |
-| **[GomokuGame](https://github.com/Gunian7/GomokuGame)** | 本地 / 联机 / 人机三模式五子棋 | `Python` |
-| **[Data-Mine](https://github.com/Gunian7/Data-Mine)** | 基于 BERT 的环保情绪识别 | `Python` `BERT` |
-| **[Poetic-_Land](https://github.com/Gunian7/Poetic-_Land)** | 言君之意，答君以诗 | `HTML` |
-| **[NodeMCU-WI-FI-CAR](https://github.com/Gunian7/NodeMCU-WI-FI-CAR)** | ESP8266 无线遥控车 | `C` `ESP8266` |
-
-</details>
-
-## 技术栈
-
-`C` `C++` `Python` `TypeScript` `JavaScript` `Rust`
-`OpenCV` `ROS2` · `STM32 / FreeRTOS` `CAN / FDCAN` `ESP8266` · `Linux` `Git`
+##  Tech Stack
 
 <div align="center">
-  <img src="assets/rule.svg" width="100%" alt="">
+
+[![](https://skillicons.dev/icons?i=cpp,python,c,html,css,js,ts&theme=dark&perline=7)](https://skillicons.dev)
+<br/>
+[![](https://skillicons.dev/icons?i=ros,linux,git,vscode,arduino,cmake,docker&theme=dark&perline=7)](https://skillicons.dev)
+
 </div>
 
-## 联系
+---
 
-邮箱 [1328037882@qq.com](mailto:1328037882@qq.com) · 主页 [gunian7.github.io](https://gunian7.github.io/Github-personal-page/)
+##  Projects
 
-<!--
-  美术：assets/banner.png 与 assets/rule.svg，均由 tools/gen_assets.py 生成（python tools/gen_assets.py）。
-  视觉：深炭灰 + 米白 + 一点血红 #B3121B；标题 Georgia，标签 Consolas。
-  正文全部为 markdown 文本：可读、可选中、可搜索，浅色/深色主题都正常。
--->
+| 项目 | 描述 | 技术栈 |
+|------|------|--------|
+| [**LevelUp**](https://github.com/Gunian7/LevelUp) | RPG 风格任务计算器，集成多人格 AI 公会接待员 | HTML CSS JS |
+| [**RM Phoenix Vision**](https://github.com/Gunian7/2025) | 杭电 PHOENIX 战队视觉组自瞄训练任务 | C++ ROS2 OpenCV |
+| [**GomokuGame**](https://github.com/Gunian7/GomokuGame) | 支持本地 / 联机 / AI 对战的五子棋系统 | Python |
+| [**NodeMCU WiFi Car**](https://github.com/Gunian7/NodeMCU-WI-FI-CAR) | 基于 ESP8266 的无线遥控车 | C ESP8266 |
+| [**STM32**](https://github.com/Gunian7/STM32) | STM32 嵌入式开发练习 | C STM32 |
+
+---
+
+##  GitHub Stats
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Gunian7&theme=dark&background=0F141C&border=344252&ring=67C1CF&fire=D96B4F&currStreakNum=F5F8FC&sideNums=C9D8EB&currStreakLabel=67C1CF&sideLabels=8FA8C4&dates=6C829C)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Gunian7&bg_color=0f141c&color=8fa8c4&line=67c1cf&point=d96b4f&area=true&hide_border=true)](https://github.com/Gunian7)
+
+</div>
+
+---
+
+###  Contact
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/1328037882@qq.com-243140?style=for-the-badge&logo=tencentqq&logoColor=67C1CF&labelColor=111820)](mailto:1328037882@qq.com)
+[![Portfolio](https://img.shields.io/badge/Personal_Page-gunian7.github.io-334457?style=for-the-badge&logo=github&logoColor=DDE7F6&labelColor=1A2533)](https://gunian7.github.io/Github-personal-page/)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Footer](https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&customColorList=1_67C1CF,2_5F7F9D,3_2B3A4D,4_080B12&section=footer)](https://github.com/Gunian7)
+
+</div>
