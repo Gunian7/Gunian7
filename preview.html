@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunian7 - Make Noir</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: #0a0a0a;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            overflow-x: hidden;
+        }
+        
+        /* Decorative lines */
+        .deco-line {
+            position: fixed;
+            background: #ff1744;
+            pointer-events: none;
+            z-index: 0;
+        }
+        
+        .deco-line-1 {
+            width: 3px;
+            height: 100vh;
+            top: 0;
+            left: 20%;
+            transform: rotate(5deg);
+            opacity: 0.15;
+        }
+        
+        .deco-line-2 {
+            width: 100vw;
+            height: 2px;
+            top: 30%;
+            left: 0;
+            transform: rotate(-2deg);
+            opacity: 0.1;
+        }
+        
+        .deco-line-3 {
+            width: 2px;
+            height: 60vh;
+            top: 20%;
+            right: 15%;
+            transform: rotate(-8deg);
+            opacity: 0.12;
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Hero */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+            padding: 0 60px;
+        }
+        
+        .hero-bg-shape {
+            position: absolute;
+            border: 4px solid #ff1744;
+            opacity: 0.08;
+            pointer-events: none;
+        }
+        
+        .shape-1 {
+            width: 400px;
+            height: 400px;
+            top: 10%;
+            right: 10%;
+            transform: rotate(15deg);
+        }
+        
+        .shape-2 {
+            width: 200px;
+            height: 600px;
+            bottom: 5%;
+            left: 5%;
+            transform: rotate(-10deg);
+        }
+        
+        .hero-title {
+            font-size: clamp(60px, 12vw, 140px);
+            font-weight: 900;
+            letter-spacing: -0.02em;
+            line-height: 0.9;
+            color: #ffffff;
+            transform: rotate(-2deg);
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .hero-title::before {
+            content: '';
+            position: absolute;
+            width: 120%;
+            height: 8px;
+            background: #ff1744;
+            bottom: -20px;
+            left: -10%;
+            transform: rotate(1deg);
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            color: #999;
+            margin-top: 60px;
+            transform: translateX(30px);
+        }
+        
+        .hero-links {
+            margin-top: 40px;
+            display: flex;
+            gap: 20px;
+            transform: translateX(30px);
+        }
+        
+        .hero-link {
+            background: transparent;
+            border: 2px solid #ff1744;
+            color: #ff1744;
+            padding: 12px 28px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: #ff1744;
+            transition: left 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: -1;
+        }
+        
+        .hero-link:hover {
+            color: #0a0a0a;
+        }
+        
+        .hero-link:hover::before {
+            left: 0;
+        }
+        
+        /* Whoami section */
+        .whoami {
+            margin: 120px 0;
+            position: relative;
+        }
+        
+        .whoami-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 60px;
+            align-items: start;
+        }
+        
+        .whoami-label {
+            font-size: 80px;
+            font-weight: 900;
+            color: #ff1744;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            letter-spacing: -0.02em;
+            opacity: 0.3;
+            position: sticky;
+            top: 100px;
+        }
+        
+        .whoami-content {
+            background: #111;
+            border: 3px solid #222;
+            padding: 30px;
+            transform: rotate(-1deg);
+            box-shadow: 12px 12px 0 rgba(255, 23, 68, 0.1);
+            transition: transform 0.3s ease;
+            position: relative;
+        }
+        
+        .whoami-content::before {
+            content: 'user@noir:~$ cat /etc/profile';
+            position: absolute;
+            top: 8px;
+            left: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 10px;
+            color: #666;
+            letter-spacing: 0.5px;
+        }
+        
+        .whoami-content:hover {
+            transform: rotate(0deg) translateY(-4px);
+        }
+        
+        .info-grid {
+            display: grid;
+            gap: 12px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin-bottom: 24px;
+            margin-top: 24px;
+        }
+        
+        .info-row {
+            display: flex;
+            border-bottom: 1px solid #222;
+            padding-bottom: 8px;
+        }
+        
+        .info-row::before {
+            content: '// ';
+            color: #666;
+            margin-right: 8px;
+        }
+        
+        .info-key {
+            color: #ff1744;
+            min-width: 140px;
+            font-weight: 600;
+        }
+        
+        .info-value {
+            color: #ccc;
+        }
+        
+        .stack-title {
+            color: #ff1744;
+            font-weight: 700;
+            margin: 30px 0 16px 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 13px;
+        }
+        
+        .stack-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .stack-item {
+            background: #000;
+            border: 1px solid #ff1744;
+            color: #fff;
+            padding: 6px 14px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            transition: all 0.2s ease;
+        }
+        
+        .stack-item:hover {
+            background: #ff1744;
+            color: #000;
+            transform: translateY(-2px);
+        }
+        
+        /* Section headers */
+        .section {
+            margin: 120px 0;
+            position: relative;
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        
+        .section-header::before {
+            content: '$ ls -la ./';
+            position: absolute;
+            top: -30px;
+            left: 0;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            color: #666;
+        }
+        
+        .section-number {
+            font-size: 120px;
+            font-weight: 900;
+            color: #ff1744;
+            opacity: 0.15;
+            line-height: 0.8;
+            margin-right: 30px;
+            font-family: 'Arial Black', sans-serif;
+        }
+        
+        .section-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.02em;
+            transform: translateY(10px);
+        }
+        
+        .section-line {
+            height: 3px;
+            background: #ff1744;
+            flex: 1;
+            margin-left: 40px;
+            transform: translateY(10px);
+        }
+        
+        /* Projects grid */
+        .projects-wrapper {
+            display: grid;
+            gap: 24px;
+        }
+        
+        .project-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+        
+        .project-row.offset {
+            transform: translateX(60px);
+        }
+        
+        .project-card {
+            background: #111;
+            border-left: 6px solid #ff1744;
+            padding: 20px 24px;
+            position: relative;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-origin: left center;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .project-card::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 0;
+            height: 100%;
+            background: rgba(255, 23, 68, 0.05);
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .project-card:hover {
+            transform: translateX(8px) rotate(0.5deg);
+            border-left-width: 12px;
+        }
+        
+        .project-card:hover::after {
+            width: 100%;
+        }
+        
+        .project-name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .project-name::before {
+            content: '> ';
+            color: #ff1744;
+        }
+        
+        .project-name a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+        
+        .project-name a:hover {
+            color: #ff1744;
+        }
+        
+        .project-desc {
+            color: #888;
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 12px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .tag {
+            font-family: 'Courier New', monospace;
+            font-size: 11px;
+            color: #ff1744;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .tag::before {
+            content: '[';
+            color: #666;
+        }
+        
+        .tag::after {
+            content: ']';
+            color: #666;
+        }
+        
+        /* More projects */
+        .more-section {
+            margin: 100px 0;
+            padding: 40px;
+            background: #111;
+            border: 2px solid #222;
+            transform: rotate(1deg);
+        }
+        
+        .more-title {
+            font-size: 24px;
+            color: #ff1744;
+            margin-bottom: 24px;
+            font-weight: 700;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .more-list {
+            list-style: none;
+            display: grid;
+            gap: 16px;
+        }
+        
+        .more-item {
+            color: #aaa;
+            font-size: 14px;
+            padding-left: 20px;
+            position: relative;
+            line-height: 1.6;
+        }
+        
+        .more-item::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #ff1744;
+        }
+        
+        .more-item strong {
+            color: #fff;
+        }
+        
+        /* Footer */
+        .footer {
+            margin: 200px 0 60px 0;
+            padding: 60px;
+            background: #000;
+            border-top: 4px solid #ff1744;
+            text-align: center;
+            position: relative;
+        }
+        
+        .footer::before {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            border: 3px solid #ff1744;
+            opacity: 0.1;
+            top: -100px;
+            right: 10%;
+            transform: rotate(45deg);
+        }
+        
+        .footer-quote {
+            font-style: italic;
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-main {
+            font-size: 32px;
+            font-weight: 700;
+            color: #ff1744;
+            letter-spacing: -0.01em;
+        }
+        
+        /* Parallax effect */
+        .parallax-slow {
+            transform: translateY(var(--scroll-y, 0));
+        }
+        
+        @media (max-width: 1024px) {
+            .hero {
+                padding: 0 30px;
+            }
+            
+            .whoami-wrapper {
+                grid-template-columns: 1fr;
+            }
+            
+            .whoami-label {
+                writing-mode: horizontal-tb;
+                transform: none;
+                font-size: 40px;
+            }
+            
+            .project-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-row.offset {
+                transform: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Decorative lines -->
+    <div class="deco-line deco-line-1"></div>
+    <div class="deco-line deco-line-2"></div>
+    <div class="deco-line deco-line-3"></div>
+
+    <div class="container">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-bg-shape shape-1"></div>
+            <div class="hero-bg-shape shape-2"></div>
+            
+            <h1 class="hero-title">MAKE<br/>NOIR</h1>
+            
+            <p class="hero-subtitle">Weikai Chen · Gunian7</p>
+            
+            <div class="hero-links">
+                <a href="mailto:1328037882@qq.com" class="hero-link">Contact</a>
+                <a href="https://github.com/Gunian7" class="hero-link">GitHub</a>
+            </div>
+        </section>
+
+        <!-- Whoami -->
+        <section class="whoami">
+            <div class="whoami-wrapper">
+                <div class="whoami-label">WHOAMI</div>
+                
+                <div class="whoami-content">
+                    <div class="info-grid">
+                        <div class="info-row">
+                            <span class="info-key">name:</span>
+                            <span class="info-value">陈位恺 (Weikai Chen)</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-key">alias:</span>
+                            <span class="info-value">Gunian7 / Lotus</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-key">location:</span>
+                            <span class="info-value">Hangzhou Dianzi University</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-key">organisation:</span>
+                            <span class="info-value">HDU PHOENIX</span>
+                        </div>
+                    </div>
+                    
+                    <div class="stack-title">Stack</div>
+                    <div class="stack-list">
+                        <span class="stack-item">C++</span>
+                        <span class="stack-item">Python</span>
+                        <span class="stack-item">C</span>
+                        <span class="stack-item">TypeScript</span>
+                        <span class="stack-item">JavaScript</span>
+                        <span class="stack-item">ROS2</span>
+                        <span class="stack-item">Linux</span>
+                        <span class="stack-item">STM32</span>
+                        <span class="stack-item">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Robotics & Vision -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">Robotics & Vision</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-wrapper">
+                <div class="project-row">
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/GEArm">GEArm</a></div>
+                        <p class="project-desc">DM-MC02 based robotic arm control system with CAN bus</p>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">STM32H7</span>
+                            <span class="tag">CANFD</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Multicar">Multicar</a></div>
+                        <p class="project-desc">Multi-vehicle coordination system</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">ROS2</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-row offset">
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Sc_vision">Sc_vision</a></div>
+                        <p class="project-desc">Auto-aim system (2026)</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">ROS2</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Auto_aim_24">Auto_aim_24</a></div>
+                        <p class="project-desc">Traditional vision auto-aim (2024)</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Companions -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">AI Companions</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-wrapper">
+                <div class="project-row">
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Desktop-companion">Desktop-companion</a></div>
+                        <p class="project-desc">Desktop Noir AI companion, local + cloud dual mode</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Electron</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Deepseek-Desktop-Mini-Maid">Deepseek-Desktop-Mini-Maid</a></div>
+                        <p class="project-desc">DeepSeek whale girl on LS26: emotion sync, music player</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">LS26</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools & Infra -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Tools & Infra</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-wrapper">
+                <div class="project-row offset">
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/LifeFlow-Web">LifeFlow-Web</a></div>
+                        <p class="project-desc">Local-first daily timeline</p>
+                        <div class="project-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">React</span>
+                            <span class="tag">PWA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/HoH">HoH</a></div>
+                        <p class="project-desc">Harness orchestration control plane</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Research & Learning</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-wrapper">
+                <div class="project-row">
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Streamflow-Forecasting-ML">Streamflow-Forecasting-ML</a></div>
+                        <p class="project-desc">Hydrology runoff prediction with ML</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">ANN</span>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-name"><a href="https://github.com/Gunian7/Data-Mine">Data-Mine</a></div>
+                        <p class="project-desc">Media environmental sentiment analysis</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">BERT</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- More projects -->
+        <section class="more-section">
+            <div class="more-title">+ More Projects</div>
+            <ul class="more-list">
+                <li class="more-item"><strong>LevelUp</strong> - RPG task calculator with AI guild receptionist · HTML, CSS, JS</li>
+                <li class="more-item"><strong>LifeFlow (HarmonyOS)</strong> - Local-first HarmonyOS life scheduling app · HTML</li>
+                <li class="more-item"><strong>GomokuGame</strong> - Gomoku with local/online/AI modes · Python, Tkinter</li>
+                <li class="more-item"><strong>NodeMCU-WI-FI-CAR</strong> - ESP8266 WiFi car · C, ESP8266</li>
+                <li class="more-item"><strong>Poetic_Land</strong> - Poetry generation · HTML</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- Reserved for personal content -->
+        </footer>
+    </div>
+
+    <script>
+        // Subtle parallax effect
+        let ticking = false;
+        
+        function updateParallax() {
+            const scrollY = window.scrollY;
+            const parallaxElements = document.querySelectorAll('.parallax-slow');
+            
+            parallaxElements.forEach(el => {
+                el.style.setProperty('--scroll-y', `${scrollY * 0.1}px`);
+            });
+            
+            ticking = false;
+        }
+        
+        window.addEventListener('scroll', () => {
+            if (!ticking) {
+                window.requestAnimationFrame(updateParallax);
+                ticking = true;
+            }
+        });
+    </script>
+</body>
+</html>
